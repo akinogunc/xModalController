@@ -5,7 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/xModalController.svg?style=flat)](https://cocoapods.org/pods/xModalController)
 [![Platform](https://img.shields.io/cocoapods/p/xModalController.svg?style=flat)](https://cocoapods.org/pods/xModalController)
 
-<video src="demo.mp4" width="374" height="816" controls preload></video>
+<img align="center" src="https://github.com/akinogunc/xModalController/blob/master/demo.gif?raw=true" width="300">
+
+## Installation
+
+xModalController is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'xModalController'
+```
 
 ## How to use
 
@@ -28,15 +37,6 @@ let modalController = xModalController(parentViewController: self, modalViewCont
 
 //show your view controller
 modalController.showModal()
-```
-
-## Installation
-
-xModalController is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'xModalController'
 ```
 
 ## Author
