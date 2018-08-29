@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'xModalController_Example' do
+  pod 'xModalController', :path => '../'
+
+  target 'xModalController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
