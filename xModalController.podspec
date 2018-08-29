@@ -9,17 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = 'xModalController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of xModalController.'
-
+  s.summary          = 'xModalController helps you present custom sized modal view controllers.'
+  s.swift_version    = '4.1'
+  
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'You can show any sized modal views with xModalController. It uses Apple\'s default modal animation.'
+  
 
   s.homepage         = 'https://github.com/akinogunc/xModalController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
