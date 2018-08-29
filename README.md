@@ -5,11 +5,30 @@
 [![License](https://img.shields.io/cocoapods/l/xModalController.svg?style=flat)](https://cocoapods.org/pods/xModalController)
 [![Platform](https://img.shields.io/cocoapods/p/xModalController.svg?style=flat)](https://cocoapods.org/pods/xModalController)
 
-## Example
+<video src="demo.mp4" width="374" height="816" controls preload></video>
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## How to use
 
-## Requirements
+First import the module
+
+```swift
+import xModalController
+```
+You can show your modal like this
+
+```swift
+//initialize your view controller
+let modalVc = MyViewController()
+
+//set a frame for it
+let modalFrame = CGRect(x: 20, y: 300, width: self.view.bounds.width - 40, height: 300)
+
+//initialize the xModalController
+let modalController = xModalController(parentViewController: self, modalViewController: modalVc, modalFrame: modalFrame)
+
+//show your view controller
+modalController.showModal()
+```
 
 ## Installation
 
